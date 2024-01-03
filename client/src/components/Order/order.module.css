@@ -1,0 +1,62 @@
+.buyOrder{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal{
+  /* max-width: 100%; */
+  width: 300px;
+  max-height: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.container_close_btn{
+  display: flex;
+  justify-content: flex-end;
+}
+.container_controler_price_btn{
+  all: unset;
+  cursor: pointer;
+}
+.container_input_btn{
+  display: flex;
+  flex-direction: column;
+}
+.container_input_btn input{
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 40%;
+}
+
+
+.close_btn {
+  /* position: absolute; */
+  /* top: 10px; */
+  /* right: 10px; */
+  /* font-size: 20px; */
+  /* float: right; */
+  cursor: pointer;
+}
+
+.container_btn_fast{
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.container_btn_fast:focus{
+  border-radius: 4px;
+  background-color: #007bff;
+}

@@ -1,0 +1,6 @@
+.main{
+    width: calc(100%-70px);
+    min-height: 85vh;
+    margin-left: 70px;
+}
+

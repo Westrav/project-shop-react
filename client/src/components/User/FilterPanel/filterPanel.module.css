@@ -1,0 +1,45 @@
+
+.input_container_search {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.input_search{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 40%;
+}
+.container_type_brand{
+    display: flex;
+    flex-direction: column;
+}
+.container_type,
+.container_brand{
+    display: flex;
+    height: 20%;
+    padding: 5px 0;
+}
+.container_type_checkbox,
+.container_brand_checkbox{
+    display: flex;
+
+    margin: 1px ;
+    padding: 1px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #646464;
+    height: 15%;
+    background-color: #f2f5f5;
+} 
+.container_type_checkbox label
+.container_brand_checkbox label{
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.container_type_brand h4{
+    margin: 5px;
+    padding: 0;
+}
+

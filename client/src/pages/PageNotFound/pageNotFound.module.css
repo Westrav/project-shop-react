@@ -1,0 +1,30 @@
+
+.container_main{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 6.8%;
+    padding-bottom: 6.8%;
+}
+.context{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 2.38%;
+    margin-top: 6.9%;
+    width: 100%;
+}
+.context h1{
+    font-size: 36px;
+    text-align: center;
+}
+.context p{
+    font-size: 16px;
+    max-width: 386px;
+    text-align: center;
+}

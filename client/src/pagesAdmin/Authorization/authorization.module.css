@@ -1,0 +1,88 @@
+.auth_form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.auth_form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.auth_form input {
+  width: calc(100% - 12px);
+  padding: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.auth_form button {
+  padding: 8px 20px;
+  margin: 5px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(90, 138, 209);
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.auth_form .btn_login:hover, 
+.auth_form a:hover {
+  background-color: #0056b3;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.auth_form a {
+  font-size: 13.333px;
+  text-decoration: none;
+  padding: 8px 20px;
+  margin: 5px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(90, 138, 209);
+  color: white;
+  cursor: pointer;
+}
+
+.btn_48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #0056b3;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+  border-radius: 4px;
+
+}
+
+.btn_48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.btn_48:after {
+  background-color: #FFFFFF;
+}
+
+.btn_48 span {
+  z-index: 1;
+  position: relative;
+} 
